@@ -87,7 +87,7 @@ public class ProductController {
         return ResultadoResponse.builder().mensaje(mensaje).respuesta(respuesta).build();
     }
 
-    // No funciona xd
+
     @GetMapping("/listarProductos")
     @ResponseBody
     public List<Product> listarProductos() {
